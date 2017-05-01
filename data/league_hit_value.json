@@ -1,0 +1,13 @@
+[
+{"SPORTS_ITEM":"101","sportsItemNm":"A","hitRate":"50"}, 
+{"SPORTS_ITEM":"102","sportsItemNm":"B","hitRate":"97"},
+{"SPORTS_ITEM":"SC","sportsItemNm":"C","hitRate":"40"}, 
+{"SPORTS_ITEM":"BK","sportsItemNm":"D","hitRate":"30"}, 
+{"SPORTS_ITEM":"BS","sportsItemNm":"E","hitRate":"65"}, 
+{"SPORTS_ITEM":"VL","sportsItemNm":"F","hitRate":"43"}, 
+{"SPORTS_ITEM":"GF","sportsItemNm":"G","hitRate":"72"},
+{"SPORTS_ITEM":"GF","sportsItemNm":"H","hitRate":"13"},
+{"SPORTS_ITEM":"GF","sportsItemNm":"I","hitRate":"16"},
+{"SPORTS_ITEM":"GF","sportsItemNm":"J","hitRate":"34"},
+{"SPORTS_ITEM":"GF","sportsItemNm":"K","hitRate":"10"}
+] 

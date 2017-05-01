@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>exam_chart</title>
+	<link rel="stylesheet" href="css/common.css">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/common/chart_util.js"></script>
+	<script type="text/javascript" src="js/common/chart_callback.js"></script>
+	<script type="text/javascript" src="js/libs/excanvas.js"></script>
+	<script type="text/javascript" src="js/libs/tweenLite.js"></script>
+	<script type="text/javascript" src="js/base/chart_base.js"></script>
+	<script type="text/javascript" src="js/base/chart_bg_base.js"></script>
+	<script type="text/javascript" src="js/base/chart_series_base.js"></script>
+	<script type="text/javascript" src="js/chart/chart_line.js"></script>
+	<script type="text/javascript" src="js/chart/chart_bar_uint.js"></script>
+	<script type="text/javascript" src="js/chart/chart_bar_int.js"></script>
+	<script type="text/javascript" src="js/chart/chart_pie.js"></script>
+	<script type="text/javascript" src="js/betmanChart/game_buy_rate.js"></script>
+	<script type="text/javascript" src="js/betmanChart/game_buy_hit_amount.js"></script>
+	<script type="text/javascript" src="js/betmanChart/game_refund_rate.js"></script>
+	<script type="text/javascript" src="js/betmanChart/game_profit_value.js"></script>
+	<script type="text/javascript" src="js/betmanChart/buy_game_refund_rate.js"></script>
+	<script type="text/javascript" src="js/betmanChart/game_hit_value.js"></script>
+	<script type="text/javascript" src="js/betmanChart/league_hit_value.js"></script>
+	<script type="text/javascript" src="js/betmanChart/league_refund_rate.js"></script>
+	<script type="text/javascript">
+	 
+		$( document ).ready( function(){
+
+			var buyGameRefundRate = BuyGameRefundRateChart().setCanvas( $("#chart_series0")[0], $("#chart_bg0")[0] );
+			var gameRefund = GameRefundRateChart().setCanvas( $("#chart_series1")[0], $("#chart_bg1")[0] );
+			var gameBuyRateHitAmount = GameBuyRateHitAmountChart().setCanvas( $("#chart_series2")[0], $("#chart_bg2")[0] );
+			var gameProfitValue = GameProfitValueChart().setCanvas( $("#chart_series3")[0], $("#chart_bg3")[0] );
+			var gameBuyRateChart = GameBuyRateChart().setCanvas( $("#chart_series4")[0], $("#chart_bg4")[0] );
+
+			load();
+
+			function load(){
+				buyGameRefundRate.load( "data/buy_game_refund.json" );
+				gameRefund.load( "data/game_refund_rate.json" );
+				gameBuyRateHitAmount.load( "data/game_buy_hit_amount.json" );
+				gameProfitValue.load( "data/game_profit_rate.json" );
+				gameBuyRateChart.load( "data/game_buy_rate.json" );
+			}
+
+			$("#btn_refresh").click( load );
+
+		});
+
+	</script>
+	</head>
+	<body>
+
+		
+		<div id="container">
+			<div id="chart0" class="chart_container">
+				<canvas id="chart_bg0" width="328" height="250"></canvas>
+				<canvas id="chart_series0" width="328" height="250"></canvas>
+			</div>
+
+			<div id="chart1" class="chart_container">
+				<canvas id="chart_bg1" width="328" height="250"></canvas>
+				<canvas id="chart_series1" width="328" height="250"></canvas>
+			</div>
+
+			<div id="chart2" class="chart_container">
+				<canvas id="chart_bg2" width="328" height="250"></canvas>
+				<canvas id="chart_series2" width="328" height="250"></canvas>
+			</div>
+
+			<div id="chart3" class="chart_container">
+				<canvas id="chart_bg3" width="328" height="250"></canvas>
+				<canvas id="chart_series3" width="328" height="250"></canvas>
+			</div>
+
+			<div id="chart4" class="chart_container">
+				<canvas id="chart_bg4" width="328" height="250"></canvas>
+				<canvas id="chart_series4" width="328" height="250"></canvas>
+			</div>
+			<input id="btn_refresh" type="button" value="refresh" />
+		</div>
+
+
+
+	</body>
+</html>
+
+
+
+

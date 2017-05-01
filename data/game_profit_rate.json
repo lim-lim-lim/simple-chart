@@ -1,0 +1,12 @@
+[
+{"SPORTS_ITEM":"101","sportsItemNm":"A","profitRate":"50"}, 
+{"SPORTS_ITEM":"102","sportsItemNm":"B","profitRate":"-145"}, 
+{"SPORTS_ITEM":"SC","sportsItemNm":"C","profitRate":"-130"}, 
+{"SPORTS_ITEM":"BK","sportsItemNm":"D","profitRate":"50"}, 
+{"SPORTS_ITEM":"BS","sportsItemNm":"E","profitRate":"-70"},  
+{"SPORTS_ITEM":"VL","sportsItemNm":"F","profitRate":"111"}, 
+{"SPORTS_ITEM":"GF","sportsItemNm":"G","profitRate":"-32"},
+{"SPORTS_ITEM":"GF","sportsItemNm":"H","profitRate":"-87"},
+{"SPORTS_ITEM":"GF","sportsItemNm":"I","profitRate":"130"},
+{"SPORTS_ITEM":"GF","sportsItemNm":"J","profitRate":"45"}
+] 

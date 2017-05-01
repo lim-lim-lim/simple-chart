@@ -1,0 +1,13 @@
+[
+{"SPORTS_ITEM":"101","sportsItemNm":"A","refundRate":"50"}, 
+{"SPORTS_ITEM":"102","sportsItemNm":"B","refundRate":"97"},
+{"SPORTS_ITEM":"SC","sportsItemNm":"C","refundRate":"40"}, 
+{"SPORTS_ITEM":"BK","sportsItemNm":"D","refundRate":"30"}, 
+{"SPORTS_ITEM":"BS","sportsItemNm":"E","refundRate":"65"}, 
+{"SPORTS_ITEM":"VL","sportsItemNm":"F","refundRate":"43"}, 
+{"SPORTS_ITEM":"GF","sportsItemNm":"G","refundRate":"72"},
+{"SPORTS_ITEM":"GF","sportsItemNm":"H","refundRate":"13"},
+{"SPORTS_ITEM":"GF","sportsItemNm":"I","refundRate":"16"},
+{"SPORTS_ITEM":"GF","sportsItemNm":"J","refundRate":"34"},
+{"SPORTS_ITEM":"GF","sportsItemNm":"K","refundRate":"10"}
+] 

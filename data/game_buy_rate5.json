@@ -1,0 +1,10 @@
+[
+{"SPORTS_ITEM":"101","sportsItemNm":"프로토승부식","buyRate":"10", "ctColor":"#fff872"}, 
+{"SPORTS_ITEM":"102","sportsItemNm":"프로토기록식","buyRate":"15", "ctColor":"#ffd93f"}, 
+{"SPORTS_ITEM":"SC","sportsItemNm":"축구","buyRate":"5", "ctColor":"#e9b355"}, 
+{"SPORTS_ITEM":"BK","sportsItemNm":"농구","buyRate":"25", "ctColor":"#c1dbfe"}, 
+{"SPORTS_ITEM":"BS","sportsItemNm":"야구","buyRate":"15", "ctColor":"#8ebbf9"}, 
+{"SPORTS_ITEM":"VL","sportsItemNm":"배구","buyRate":"5", "ctColor":"#5b95e4"},
+{"SPORTS_ITEM":"GF","sportsItemNm":"골프","buyRate":"10", "ctColor":"#2d64b5"},
+{"SPORTS_ITEM":"GF","sportsItemNm":"F1","buyRate":"15", "ctColor":"#aba7ff"}
+] 

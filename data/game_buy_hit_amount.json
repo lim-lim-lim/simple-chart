@@ -1,0 +1,12 @@
+[
+{"SPORTS_ITEM":"101",	"sportsItemNm":"A",		"buyAmt":"4113000",		"winAmt":"5202000"}, 
+{"SPORTS_ITEM":"102",	"sportsItemNm":"B",		"buyAmt":"100",		"winAmt":"0"}, 
+{"SPORTS_ITEM":"SC",	"sportsItemNm":"C",		"buyAmt":"2000000",	"winAmt":"500000"}, 
+{"SPORTS_ITEM":"BK",	"sportsItemNm":"D",		"buyAmt":"9000111",	"winAmt":"4500000"}, 
+{"SPORTS_ITEM":"BS",	"sportsItemNm":"E",		"buyAmt":"10000",		"winAmt":"50000"}, 
+{"SPORTS_ITEM":"VL",	"sportsItemNm":"F",		"buyAmt":"1000000",		"winAmt":"2939200"}, 
+{"SPORTS_ITEM":"GF",	"sportsItemNm":"G",		"buyAmt":"12345000",		"winAmt":"1919300"},
+{"SPORTS_ITEM":"GF",	"sportsItemNm":"H",		"buyAmt":"5324000",		"winAmt":"4949300"},
+{"SPORTS_ITEM":"GF",	"sportsItemNm":"I",		"buyAmt":"1303000",		"winAmt":"5949500"},
+{"SPORTS_ITEM":"GF",	"sportsItemNm":"J",		"buyAmt":"4991290",		"winAmt":"10302300"}
+] 

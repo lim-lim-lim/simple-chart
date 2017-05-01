@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    border-collapse:collapse;
+}
+
+.tip {
+    padding:2px 5px 1px 5px;
+    background-color:#FFFFFF;
+    position:absolute;
+    font-size:11px;
+    font-family: dotum,helvetica, sans-serif;
+    border: 1px solid #b6b6b6;
+}
+
+.tip .label {
+    font-weight: bold;
+    color: #383838;
+}
+
+.tip .value {
+    color: #626262;
+}
+
+.commonText{
+    padding-top: 4px;
+    position:absolute;
+    font-size:11px;
+    font-family: dotum, helvetica, sans-serif;
+    line-height: 12px;
+}
+
+.vAxisText{
+    padding-top: 4px;
+    position:absolute;
+    font-size:11px;
+    font-family: dotum, helvetica, sans-serif;
+    line-height: 12px;
+    color: #777777;
+}
+
+.hAxisText{
+    vertical-align:middle;
+    position:absolute;
+    font-size:11px;
+    font-family: dotum, helvetica, sans-serif;
+    line-height: 12px;
+    color: #777777;
+}
+
+.pieText{
+    position:absolute;
+    font-size:11px;
+    font-family: dotum, helvetica, sans-serif;
+    line-height: 12px;
+    color: #777777;
+}
+
+.pieDataText{
+    position:absolute;
+    font-size:11px;
+    font-family: dotum, helvetica, sans-serif;
+    line-height: 12px;
+    color: #000000;
+}
+
+.infoText{
+    position:absolute;
+    font-size:11px;
+    font-family: dotum, helvetica, sans-serif;
+    line-height: 12px;
+    color: #777777;
+}
+
+.legendText{
+    position:absolute;
+    font-size:11px;
+    font-family: dotum, helvetica, sans-serif;
+    line-height: 12px;
+    color: #777777;
+}
+
+.warningText{
+    position:absolute;
+    font-size:11px;
+    font-family: dotum, helvetica, sans-serif;
+    line-height: 12px;
+    color: #000000;
+}
+
+#container{
+    width: 660px;
+    height:100%;
+}
+
+.chart_container{
+    width: 328px;
+    height:250px;
+    position: relative;
+    float: left;
+    border: 1px solid #EEEEEE;
+}
+
+#btn_refresh{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+canvas {
+    position: absolute;
+}
